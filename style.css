@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main {
+  width: 70%;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: brown;
+}
+
+.box {
+  border: 0px solid black;
+  margin-bottom: 20px;
+}
+
+/* Heading */
+#heading {
+  text-align: center;
+  margin: 50px 0;
+}
+
+
+/* Description section */
+#description img {
+ border: 0px solid black;
+}
+
+#description-text {
+  border: 0px solid black;
+  padding: 10px;
+}
+
+#description-text h2 {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+#description-text p {
+  text-indent: 10px;
+  line-height: 2.5;
+  margin-bottom: 10px;
+  padding-right: 10px;
+}
+
+#description {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+/* Ingredients section */
+#ingredients {
+  display: flex;
+}
+
+#ingredients img {
+  width: auto;
+}
+
+#ingredients-text {
+  border: 0px solid black;
+  width: 100%;
+  font-size: 1rem;
+}
+
+#ingredients-text h2 {
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+
+#ing-list {
+  list-style: inside;
+  border: 0px solid black;
+  display: inline-block;
+  width: auto;
+  position: relative;
+  left: 80px;
+  padding: 20px;
+  line-height: 2.5;
+  font-size: 1.1rem;
+}
+
+/* Recipe section*/
+#recipe-text {
+  list-style: inside;
+  padding: 20px;
+  font-size: 1.1rem;
+}
+
+#recipe-text ol {
+  line-height: 2;
+}
+
+#recipe-text h2 {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+#recipe-text li {
+  margin-bottom: 10px;
+}
+
+
+/* Footer section*/
+#footer {
+  border: 0px solid black;
+  margin-top: 70px;
+  padding: 30px;
+  text-align: center;
+}
